@@ -6,7 +6,7 @@ import Message from "@/views/Message/";
 import Project from "@/views/Project/";
 
 export default [
-  { name: "Home", path: "/", component: Home, meta: { name: "首页" } },
+  { name: "Home", path: "/myblog", component: Home, meta: { name: "首页" } },
   {
     name: "Blog",
     path: "/article",
